@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 
 }
 body{
@@ -50,16 +51,28 @@ body{
     font-size: 3rem;
     font-weight:bold;
 }
-@media screen and (max-width: 430px){
+@media screen and (min-width: 300px){
     .container{
-        width: 70vw;
-
+        width: 75vw;
+        height: 75vh;
     }
     .btn{
-        height: 60%;
-        width: 60px;
+        height: 14%;
+        width: 19%;
     }
 }
+/* @media screen and (min-width: 400px){
+    .container{
+        width: 85vw;
+        height: 80vh;
+    }
+    .btn{
+        height: 20%;
+        width: 22%;
+    }
+} */
+
+/* }
 @media screen and (max-width: 418px){
     .container{
         width: 61vw;
@@ -99,5 +112,8 @@ body{
         height: 40px;
         width: 40px;
     }
-}
+} */
+
+
+
 
