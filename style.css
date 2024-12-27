@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.container{
+    height: 78vh;
+    width: 60vh;
+    /* background: linear-gradient(to bottom, yellow, green); */
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+    margin: 5vh auto auto auto;
+    /* display: grid; */
+  /* grid-template-columns: repeat(4, 1fr); 4 equal columns for buttons */
+  /* grid-template-rows: auto 1fr; One row for input, rest for buttons */
+  /* gap: 10px; */
+    }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    height:15%;
+    width: 21%;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    box-shadow: 5px 5px 15px rgba(231, 220, 220, 0.336);
+}
+#btn_{
+    background-color: rgb(255, 145, 0);
+
+}
+.btn:hover{
+    background-color:  rgba(233, 223, 223, 0.712);
+    
+}
+.btn:active{
+    background-color: rgba(231, 220, 220, 0.336);
+    color: white;
+}
+    
+#input{
+    width: 100%;
+    height:15%;
+    text-align: right;
+    font-size: 3rem;
+    font-weight:bold;
+}
+@media screen and (max-width: 430px){
+    .container{
+        width: 70vw;
+
+    }
+    .btn{
+        height: 60%;
+        width: 60px;
+    }
+}
+@media screen and (max-width: 418px){
+    .container{
+        width: 61vw;
+
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 375px){
+    .container{
+        width: 70vw;
+
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 80vw;
+
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 400px){
+    .container{
+        width: 55vw;
+
+    }
+    .btn{
+        height: 40px;
+        width: 40px;
+    }
+}
+
