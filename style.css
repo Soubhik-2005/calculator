@@ -51,7 +51,67 @@ body{
     font-size: 3rem;
     font-weight:bold;
 }
+@media screen and (min-width: 300px){
+    .container{
+        width: 75vw;
+        height: 75vh;
+    }
+    .btn{
+        height: 14%;
+        width: 19%;
+    }
+}
+@media screen and (min-width: 340px){
+    .container{
+        width: 86vw;
+        height: 65vh;
+    }
+    .btn{
+        height: 14%;
+        width: 20%;
+    }
+}
+@media screen and (min-width: 350px){
+    .container{
+        width: 89vw;
+        height: 65vh;
+    }
+    .btn{
+        height: 14%;
+        width: 20%;
+    }
+}
+@media screen and (min-width: 400px){
+    .container{
+        width: 85vw;
+        height: 86vh;
+    }
+    .btn{
+        height: 14%;
+        width: 21%;
+    }
+}
 
 
+ @media screen and (min-width: 410px){
+    .container{
+        width: 80vw;
+        height: 88vh;
 
+    }
+    .btn{
+        height: 65px;
+        width: 69px;
+    }
+}
+@media screen and (min-width:428px){
+    .container{
+        width: 339px;
+        height: 439px;
+    }
+    .btn{
+        height: 63px;
+        width: 70px;
+    }
+}
 
