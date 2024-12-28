@@ -84,12 +84,13 @@ body{
     #input{
         font-size: 2rem;
     }
-}
+
 .container_2{
     position: relative;
     height: 100%;
     width: 100%;
     margin:auto;
+}
 }
 @media screen and (min-width:450px) {
     .container{
@@ -120,3 +121,4 @@ body{
 
 
 
+}
