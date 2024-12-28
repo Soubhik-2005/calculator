@@ -53,7 +53,7 @@ body{
 }
 @media screen and (min-width: 300px){
     .container{
-        width: 75vw;
+        width: 80vw;
         height: 75vh;
     }
     .btn{
@@ -96,11 +96,22 @@ body{
  @media screen and (min-width: 410px){
     .container{
         width: 80vw;
-        height: 88vh;
+        height: 50vh;
 
     }
     .btn{
         height: 65px;
+        width: 69px;
+    }
+}
+@media screen and (min-width: 420px){
+    .container{
+        width: 80vw;
+        height: 80vh;
+
+    }
+    .btn{
+        height: 58px;
         width: 69px;
     }
 }
