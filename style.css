@@ -9,13 +9,8 @@ body{
 .container{
     height: 78vh;
     width: 60vh;
-    /* background: linear-gradient(to bottom, yellow, green); */
     box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
     margin: 5vh auto auto auto;
-    /* display: grid; */
-  /* grid-template-columns: repeat(4, 1fr); 4 equal columns for buttons */
-  /* grid-template-rows: auto 1fr; One row for input, rest for buttons */
-  /* gap: 10px; */
     }
 body{
     display: flex;
@@ -28,7 +23,10 @@ body{
     width: 21%;
     border-radius: 50%;
     border: none;
-    margin: 5px;
+    font-size: 0.9rem;
+    margin: 0.4em;
+    font-weight:bold;
+    font-size: large; 
     box-shadow: 5px 5px 15px rgba(231, 220, 220, 0.336);
 }
 #btn_{
@@ -51,69 +49,72 @@ body{
     font-size: 3rem;
     font-weight:bold;
 }
-@media screen and (min-width: 300px){
+@media screen and (min-width:300px){
     .container{
-        width: 75vw;
-        height: 75vh;
+        width: 75%;
+        height: 70%;
+    }
+    .btn{
+        height: 13%;
+        width: 17%;
+        border-radius: 100%;
+    
+    #input{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:350px) {
+    .container{
+        width: 76%;
+        height: 90%;
     }
     .btn{
         height: 14%;
-        width: 19%;
+        width:18%;
+    }
+    #input{
+        font-size: 2rem;
     }
 }
-/* @media screen and (min-width: 400px){
-    .container{
-        width: 85vw;
-        height: 80vh;
-    }
+@media screen and (min-width:400px) {
     .btn{
-        height: 20%;
-        width: 22%;
     }
-} */
-
-/* }
-@media screen and (max-width: 418px){
-    .container{
-        width: 61vw;
-
-    }
-    .btn{
-        height: 50px;
-        width: 50px;
+    #input{
+        font-size: 2rem;
     }
 }
-@media screen and (max-width: 375px){
+.container_2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+}
+@media screen and (min-width:450px) {
     .container{
-        width: 70vw;
-
+        width: 76%;
+        height: 90%;
     }
     .btn{
-        height: 50px;
-        width: 50px;
+        height: 14%;
+        width:19%;
+    }
+    #input{
+        font-size: 2rem;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (min-width:500px) {
     .container{
-        width: 80vw;
-
+        width: 410px;
+        height: 90%;
     }
     .btn{
-        height: 50px;
-        width: 50px;
+        height: 14%;
+        width:20%;
+    }
+    #input{
+        font-size: 2rem;
     }
 }
-@media screen and (max-width: 400px){
-    .container{
-        width: 55vw;
-
-    }
-    .btn{
-        height: 40px;
-        width: 40px;
-    }
-} */
-
 
 
 

@@ -9,7 +9,8 @@
 <body>
     <div class="container">
      <input type="text" placeholder="0" id="input" readonly></input>
-     <button class="btn" id="AC" onclick="clearAll()" >AC</button>
+     <div class="container_2">
+        <button class="btn" id="AC" onclick="clearAll()" >AC</button>
      <button class="btn" id="btn%" onclick="appendToDisplay('%')">%</button>
      <button class="btn" id="backspace" onclick="clear_1()">&lt;</button>
      <button class="btn" id="btn/" onclick="appendToDisplay('/')">/</button>
@@ -29,6 +30,7 @@
     <button class="btn" id="btn0" onclick="appendToDisplay('0')">0</button>
     <button class="btn" id="btn." onclick="appendToDisplay('.')">.</button>
     <button class="btn" id="btn_" onclick="calculate()">=</button>
+</div>
     <script src="app.js"></script>
 </div>
 </body>
