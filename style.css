@@ -67,7 +67,7 @@ body{
         height: 65vh;
     }
     .btn{
-        height: 15%;
+        height: 14%;
         width: 20%;
     }
 }
@@ -96,7 +96,7 @@ body{
  @media screen and (min-width: 410px){
     .container{
         width: 80vw;
-        height: 50vh;
+        height: 88vh;
 
     }
     .btn{
